@@ -156,7 +156,6 @@ class App extends React.Component {
     const json = localStorage.getItem('cards');
     const array = JSON.parse(json)
     this.setState({ savedCards: array })
-    store.dispatch(gameAction(array))
   }
 
   render() {
