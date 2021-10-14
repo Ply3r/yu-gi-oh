@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/yu-gi-oh/static/css/main.a6ea2b17.chunk.css",
-    "main.js": "/yu-gi-oh/static/js/main.378a1cd2.chunk.js",
-    "main.js.map": "/yu-gi-oh/static/js/main.378a1cd2.chunk.js.map",
-    "runtime-main.js": "/yu-gi-oh/static/js/runtime-main.988db7c5.js",
-    "runtime-main.js.map": "/yu-gi-oh/static/js/runtime-main.988db7c5.js.map",
-    "static/js/2.813d8ae9.chunk.js": "/yu-gi-oh/static/js/2.813d8ae9.chunk.js",
-    "static/js/2.813d8ae9.chunk.js.map": "/yu-gi-oh/static/js/2.813d8ae9.chunk.js.map",
+    "main.js": "/yu-gi-oh/static/js/main.f34495ef.chunk.js",
+    "main.js.map": "/yu-gi-oh/static/js/main.f34495ef.chunk.js.map",
+    "runtime-main.js": "/yu-gi-oh/static/js/runtime-main.f8b89d2e.js",
+    "runtime-main.js.map": "/yu-gi-oh/static/js/runtime-main.f8b89d2e.js.map",
+    "static/js/2.3d2884fa.chunk.js": "/yu-gi-oh/static/js/2.3d2884fa.chunk.js",
+    "static/js/2.3d2884fa.chunk.js.map": "/yu-gi-oh/static/js/2.3d2884fa.chunk.js.map",
     "index.html": "/yu-gi-oh/index.html",
     "static/css/main.a6ea2b17.chunk.css.map": "/yu-gi-oh/static/css/main.a6ea2b17.chunk.css.map",
-    "static/js/2.813d8ae9.chunk.js.LICENSE.txt": "/yu-gi-oh/static/js/2.813d8ae9.chunk.js.LICENSE.txt",
+    "static/js/2.3d2884fa.chunk.js.LICENSE.txt": "/yu-gi-oh/static/js/2.3d2884fa.chunk.js.LICENSE.txt",
     "static/media/game.css": "/yu-gi-oh/static/media/back-card.32b32b01.jpg",
     "static/media/app.css": "/yu-gi-oh/static/media/card-background.aae6545d.jpg",
     "static/media/card.css": "/yu-gi-oh/static/media/front-card.b30eb5f5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.988db7c5.js",
-    "static/js/2.813d8ae9.chunk.js",
+    "static/js/runtime-main.f8b89d2e.js",
+    "static/js/2.3d2884fa.chunk.js",
     "static/css/main.a6ea2b17.chunk.css",
-    "static/js/main.378a1cd2.chunk.js"
+    "static/js/main.f34495ef.chunk.js"
   ]
 }
