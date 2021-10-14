@@ -194,7 +194,7 @@ class App extends React.Component {
           </div>
         </div>
         <div class="container">
-          <Link to="/game">
+          <Link to="/yu-gi-oh/game">
             <button className="jogar-bot" type="button">Jogar</button>
           </Link>
         </div>

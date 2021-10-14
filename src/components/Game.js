@@ -48,7 +48,7 @@ class Game extends Component {
     const obj = game[position];
     return (
       <div className="game-main-container">
-        <Link to="/">
+        <Link to="/yu-gi-oh">
           <p className="link"><FontAwesomeIcon icon={faArrowLeft}/> Voltar para a pagina inicial</p>
         </Link>
         <h1 className="title-game">Yu Gi Oh!</h1>

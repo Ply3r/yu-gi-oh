@@ -9,8 +9,8 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={ App }/> 
-        <Route path="/game" component={ Game }/> 
+        <Route exact path="/yu-gi-oh" component={ App }/> 
+        <Route path="/yu-gi-oh/game" component={ Game }/> 
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
