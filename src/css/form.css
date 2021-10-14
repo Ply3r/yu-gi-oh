@@ -1,0 +1,55 @@
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4em;
+  height: 68%;
+  width: 80%;
+}
+
+.normal-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.3em;
+  height: 5vh;
+  margin-top: 3px;
+  padding: 10px;
+  width: 100%;
+}
+
+.normal-input:focus {
+  background-color: white;
+  border: 3px solid #D43A42;
+}
+
+.save-button {
+  background-color: #D43A42;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+.save-button:disabled {
+  background-color: #e79ea1;
+  cursor: unset;
+}
+
+form select {
+  font-size: 1em;
+  height: 5vh;
+  width: 100%;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form textarea {
+  height: 10vh;
+  padding: 5px;
+  resize: none;
+  width: 100%;
+}

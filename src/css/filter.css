@@ -1,0 +1,24 @@
+.filtro {
+  margin: 3vh 0;
+}
+
+.filtro h2 {
+  color: #D43A42;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.filtro .normal-input {
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-item {
+  height: 2vh;
+  width: 45%;
+}

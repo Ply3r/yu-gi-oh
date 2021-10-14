@@ -1,0 +1,78 @@
+.card {
+  height: 580px;
+  width: 400px;
+  background-image: url(../images/front-card.png);
+  background-position: center;
+  background-size: 100% 100%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-intern {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-intern h1 {
+  text-align: start;
+  width: 400px;
+  height: 40px;
+  margin-top: 25px;
+  padding: 0 30px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.raridade {
+  height: 25px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.estrela {
+  background-image: url(../images/estrela.png);
+  background-position: center;
+  background-size: 100% 100%;
+  width: 25px;
+  height: 25px;
+  margin: 0 3px;
+}
+
+.card-intern img {
+  height: 52%;
+  width: 75%;
+  margin-bottom: 28px;
+}
+
+.description-card {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  height: 90px;
+  width: 85%;
+}
+
+.attr-container {
+  width: 100%;
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.attr-container p:nth-child(1) {
+  width: 35px;
+  margin-right: 45px;
+  overflow: hidden;
+}
+
+.attr-container p:nth-child(2) {
+  width: 35px;
+  margin-right: 32px;
+  overflow: hidden;
+}
+
