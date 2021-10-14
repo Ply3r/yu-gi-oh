@@ -7,7 +7,12 @@ import Game from './components/Game';
 
 ReactDOM.render(
   <>
-    <App/>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/yu-gi-oh/" component={ App }/> 
+        <Route path="/yu-gi-oh/game" component={ Game }/> 
+      </Switch>
+    </BrowserRouter>
   </>,
   document.getElementById('root'),
 );
