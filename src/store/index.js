@@ -15,9 +15,6 @@ const gameReducer = (state = INITIAL_STATE, actions) => {
 
 const rootReducer = combineReducers({ gameReducer });
 
-const store = createStore(
-  rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-);
+const store = createStore(rootReducer);
 
 export default store;
