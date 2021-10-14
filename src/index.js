@@ -7,12 +7,7 @@ import Game from './components/Game';
 
 ReactDOM.render(
   <>
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="https://ply3r.github.io/yu-gi-oh/" component={ App }/> 
-        <Route path="https://ply3r.github.io/yu-gi-oh/game" component={ Game }/> 
-      </Switch>
-    </BrowserRouter>
+    <App/>
   </>,
   document.getElementById('root'),
 );
