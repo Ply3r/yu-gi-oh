@@ -25,15 +25,18 @@ class App extends React.Component {
 
   onInputChange = ({ target }) => {
     const { name, value } = target;
-    if (name === 'cardTrunfo' || name === 'filterTrunfo') {
-      const { checked } = target;
-      this.setState({ [name]: checked });
-    } else {
-      this.setState({ [name]: value },
-        () => {
-          this.isButtonDisabled();
-        });
+    let hold = value;
+    if (name === 'raridade') {
+      if (value > 10) {
+        hold = 10
+      }
     }
+    
+    this.setState({ [name]: hold },
+      () => {
+        this.isButtonDisabled();
+      });
+    
   }
 
   onSaveButtonClick = () => {
