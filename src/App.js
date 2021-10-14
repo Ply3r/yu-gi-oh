@@ -154,6 +154,8 @@ class App extends React.Component {
 
   componentDidMount() {
     const json = localStorage.getItem('cards');
+    console.log(json)
+    if (!json) return;
     const array = JSON.parse(json)
     this.setState({ savedCards: array })
   }
