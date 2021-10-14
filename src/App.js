@@ -31,6 +31,12 @@ class App extends React.Component {
         hold = 10
       }
     }
+
+    if (name === 'ataque' || name === 'defesa') {
+      if (value > 5000) {
+        hold = 5000
+      }
+    }
     
     this.setState({ [name]: hold },
       () => {
