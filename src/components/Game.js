@@ -73,7 +73,7 @@ class Game extends Component {
           <span>{ game.length }</span>
         </p>
         { embaralhar
-          ? <button type="button" onClick={ this.embaralharCartas }>Embaralhar</button>
+          ? <button type="button" className="jogar-bot" onClick={ this.embaralharCartas }>Embaralhar</button>
           : '' }
       </div>
     );
