@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yu-gi-ou/static/css/main.c48ef4bc.chunk.css",
+    "main.js": "/yu-gi-ou/static/js/main.378a1cd2.chunk.js",
+    "main.js.map": "/yu-gi-ou/static/js/main.378a1cd2.chunk.js.map",
+    "runtime-main.js": "/yu-gi-ou/static/js/runtime-main.01674209.js",
+    "runtime-main.js.map": "/yu-gi-ou/static/js/runtime-main.01674209.js.map",
+    "static/js/2.813d8ae9.chunk.js": "/yu-gi-ou/static/js/2.813d8ae9.chunk.js",
+    "static/js/2.813d8ae9.chunk.js.map": "/yu-gi-ou/static/js/2.813d8ae9.chunk.js.map",
+    "index.html": "/yu-gi-ou/index.html",
+    "static/css/main.c48ef4bc.chunk.css.map": "/yu-gi-ou/static/css/main.c48ef4bc.chunk.css.map",
+    "static/js/2.813d8ae9.chunk.js.LICENSE.txt": "/yu-gi-ou/static/js/2.813d8ae9.chunk.js.LICENSE.txt",
+    "static/media/game.css": "/yu-gi-ou/static/media/back-card.32b32b01.jpg",
+    "static/media/app.css": "/yu-gi-ou/static/media/card-background.aae6545d.jpg",
+    "static/media/card.css": "/yu-gi-ou/static/media/front-card.b30eb5f5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01674209.js",
+    "static/js/2.813d8ae9.chunk.js",
+    "static/css/main.c48ef4bc.chunk.css",
+    "static/js/main.378a1cd2.chunk.js"
+  ]
+}
